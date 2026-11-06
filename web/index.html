@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PEPEC Part 4 故事复诵训练</title>
+<link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+<header>
+  <h1>PEPEC Part 4 故事复诵训练</h1>
+</header>
+
+<main>
+  <!-- 篇目选择 -->
+  <nav id="picker" class="picker"></nav>
+
+  <!-- 1 听原文 -->
+  <section class="card">
+    <h2>① 听原文 <span id="storyTitle" class="storyTitle"></span></h2>
+    <audio id="refAudio" controls preload="metadata"></audio>
+    <div class="row">
+      <button id="btnText" class="ghost">看原文 / 应读</button>
+    </div>
+    <div id="textPanel" class="panel hidden">
+      <p><b>原文：</b><span id="origText"></span></p>
+      <p><b>应读：</b><span id="spokenText" class="mono"></span></p>
+      <p><b>译文：</b><span id="zhText"></span></p>
+    </div>
+  </section>
+
+  <!-- 2 复诵录音 -->
+  <section class="card">
+    <h2>② 复诵录音</h2>
+    <p class="tip">听完后用自己的话复述整个故事（建议 60–120 秒，上限 180 秒）。</p>
+    <div class="row">
+      <button id="btnRec" class="primary">● 开始录音</button>
+      <button id="btnPlayMine" class="ghost" disabled>▶ 播放我的录音</button>
+    </div>
+    <div class="row"><span id="recState" class="state">未录音</span></div>
+  </section>
+
+  <!-- 3 识别评分 -->
+  <section class="card">
+    <h2>③ 识别评分</h2>
+    <div class="row">
+      <button id="btnAsr" class="primary" disabled>识别我说的（本地 Whisper）</button>
+      <button id="btnReset" class="ghost">重来</button>
+    </div>
+    <div id="envWarn" class="warn"></div>
+    <div id="asrProgress" class="state"></div>
+    <div id="result"></div>
+  </section>
+
+  <!-- 自查清单 -->
+  <section class="card">
+    <h2>自查清单（不用识别，微信里也能用）</h2>
+    <p class="tip">复述完对照勾选你说到的信息点，点「算自查分」看覆盖率。</p>
+    <div id="selfCheck"></div>
+    <div class="row">
+      <button id="btnSelf" class="primary">算自查分</button>
+    </div>
+    <div id="selfResult" class="state"></div>
+  </section>
+
+  <!-- 训练记录 -->
+  <section class="card">
+    <h2>训练记录</h2>
+    <div id="stats" class="state"></div>
+    <div id="wrongBook"></div>
+    <div class="row"><button id="btnClear" class="ghost">清空训练记录</button></div>
+  </section>
+</main>
+
+<footer>
+  <p>纯前端 · 录音不上传 · 识别在浏览器本地完成（Whisper-tiny，约 43MB，首次下载后缓存）。</p>
+  <p>微信内置浏览器可用录音与自查清单；「识别」需点右上角「···」→「在浏览器打开」。</p>
+</footer>
+
+<script type="module" src="app.js?v=2"></script>
+</body>
+</html>

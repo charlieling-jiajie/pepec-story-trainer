@@ -1,0 +1,291 @@
+{
+ "meta": {
+  "hintText": {
+   "tree": "3 读 TREE（非 three）",
+   "letter": "字母读法：A320 的 A 读 ei；GPS 直读 G-P-S"
+  },
+  "rules": {
+   "three": "所有 three 一律读 tree（含数词）",
+   "digits": "逐位读数 3→tree（机型/高度层/编码）",
+   "thousands": "≥10000 整千高度逐位+thousand",
+   "letters": "字母直读，不用 ICAO 拼读词",
+   "models": "B737→B seven tree seven；A320→A tree two zero"
+  }
+ },
+ "stories": [
+  {
+   "id": 1,
+   "text": "A Boeing 737 was approaching a regional airport on a clear morning. When the crew selected the landing gear down, the nose gear indicator light did not illuminate. The captain asked the first officer to check the checklist, while he continued to fly the aircraft. The crew informed the tower and requested a low pass so that the controller could visually check the gear. The controller reported that all three landing gear appeared to be extended. The crew then landed normally. After landing, maintenance found that the indicator bulb was faulty, and the landing gear itself was working properly.",
+   "zh": "一个晴朗的早晨，一架波音737正在进近一个支线机场。机组放下起落架时，前起落架指示灯没有亮。机长让副驾驶查阅检查单，自己继续操纵飞机。机组通知了塔台，并请求低空通过，以便管制员目视检查起落架。管制员报告三个起落架看起来都已放下。随后机组正常着陆。着陆后，维修人员发现是指示灯灯泡故障，起落架本身工作正常。",
+   "tts": "A Boeing seven tree seven was approaching a regional airport on a clear morning. When the crew selected the landing gear down, the nose gear indicator light did not illuminate. The captain asked the first officer to check the checklist, while he continued to fly the aircraft. The crew informed the tower and requested a low pass so that the controller could visually check the gear. The controller reported that all tree landing gear appeared to be extended. The crew then landed normally. After landing, maintenance found that the indicator bulb was faulty, and the landing gear itself was working properly.",
+   "spoken": "a boeing seven tree seven was approaching a regional airport on a clear morning when the crew selected the landing gear down the nose gear indicator light did not illuminate the captain asked the first officer to check the checklist while he continued to fly the aircraft the crew informed the tower and requested a low pass so that the controller could visually check the gear the controller reported that all tree landing gear appeared to be extended the crew then landed normally after landing maintenance found that the indicator bulb was faulty and the landing gear itself was working properly",
+   "hints": [
+    "tree"
+   ],
+   "conversions": [
+    {
+     "from": "A Boeing 737",
+     "to": "A Boeing seven tree seven"
+    },
+    {
+     "from": "three",
+     "to": "tree（全局规则）"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "text": "An Airbus A320 was flying from Chengdu to Shanghai at flight level 350. About one hundred kilometres ahead, the weather radar showed a line of thunderstorms. The crew asked air traffic control for a deviation to the south, and the request was approved. The detour was longer than planned, so the captain checked the remaining fuel and calculated that it would still be sufficient to reach the destination with the required reserve. Nevertheless, he decided to inform the company dispatcher. During the descent, the aircraft encountered moderate turbulence, and the cabin crew were told to stop the service and sit down. The flight finally landed in Shanghai without any injuries.",
+   "zh": "一架空客A320从成都飞往上海，飞行高度层350。前方约一百公里处，气象雷达显示有一条雷暴带。机组向空管申请向南绕飞，获得批准。绕飞航程比计划更长，机长检查了剩余燃油，计算后认为仍足以带着规定的备份油量到达目的地。尽管如此，他还是决定通知公司签派员。下降过程中，飞机遇到中度颠簸，乘务员被告知停止服务并就座。该航班最终在上海安全落地，无人受伤。",
+   "tts": "An Airbus ei tree two zero was flying from Chengdu to Shanghai at flight level tree five zero. About one hundred kilometres ahead, the weather radar showed a line of thunderstorms. The crew asked air traffic control for a deviation to the south, and the request was approved. The detour was longer than planned, so the captain checked the remaining fuel and calculated that it would still be sufficient to reach the destination with the required reserve. Nevertheless, he decided to inform the company dispatcher. During the descent, the aircraft encountered moderate turbulence, and the cabin crew were told to stop the service and sit down. The flight finally landed in Shanghai without any injuries.",
+   "spoken": "an airbus ei tree two zero was flying from chengdu to shanghai at flight level tree five zero about one hundred kilometres ahead the weather radar showed a line of thunderstorms the crew asked air traffic control for a deviation to the south and the request was approved the detour was longer than planned so the captain checked the remaining fuel and calculated that it would still be sufficient to reach the destination with the required reserve nevertheless he decided to inform the company dispatcher during the descent the aircraft encountered moderate turbulence and the cabin crew were told to stop the service and sit down the flight finally landed in shanghai without any injuries",
+   "hints": [
+    "tree",
+    "letter"
+   ],
+   "conversions": [
+    {
+     "from": "An Airbus A320",
+     "to": "An Airbus ei tree two zero"
+    },
+    {
+     "from": "flight level 350",
+     "to": "flight level tree five zero"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "text": "A cargo aircraft was accelerating on the runway for takeoff when a flock of birds suddenly rose from the grass beside the runway. Just before rotation, the crew felt a strong vibration and heard a loud bang from the right engine. The captain immediately rejected the takeoff, applied maximum braking and brought the aircraft to a stop with about three hundred metres of runway remaining. The fire services were sent to the scene, and no fire was found. Later inspection showed that several fan blades of the right engine had been damaged by bird strike. The airport suspended operations for thirty minutes to clear the runway and chase away the birds.",
+   "zh": "一架货机在跑道上加速起飞时，一群鸟突然从跑道旁的草地上飞起。就在抬轮之前，机组感到强烈震动，并听到右发动机传来一声巨响。机长立即中断起飞，施加最大刹车，使飞机在跑道剩余约三百米处停住。消防人员赶到现场，没有发现起火。随后检查显示，右发动机的数片风扇叶片被鸟击损坏。机场暂停运行三十分钟，以清理跑道并驱赶鸟群。",
+   "tts": "A cargo aircraft was accelerating on the runway for takeoff when a flock of birds suddenly rose from the grass beside the runway. Just before rotation, the crew felt a strong vibration and heard a loud bang from the right engine. The captain immediately rejected the takeoff, applied maximum braking and brought the aircraft to a stop with about tree hundred metres of runway remaining. The fire services were sent to the scene, and no fire was found. Later inspection showed that several fan blades of the right engine had been damaged by bird strike. The airport suspended operations for thirty minutes to clear the runway and chase away the birds.",
+   "spoken": "a cargo aircraft was accelerating on the runway for takeoff when a flock of birds suddenly rose from the grass beside the runway just before rotation the crew felt a strong vibration and heard a loud bang from the right engine the captain immediately rejected the takeoff applied maximum braking and brought the aircraft to a stop with about tree hundred metres of runway remaining the fire services were sent to the scene and no fire was found later inspection showed that several fan blades of the right engine had been damaged by bird strike the airport suspended operations for thirty minutes to clear the runway and chase away the birds",
+   "hints": [
+    "tree"
+   ],
+   "conversions": [
+    {
+     "from": "three hundred metres",
+     "to": "tree hundred metres"
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "text": "While cruising over mountainous terrain at 37,000 feet, the crew received a cabin altitude warning. The captain and the first officer put on their oxygen masks and confirmed that the cabin altitude was climbing rapidly. They declared an emergency, and began an emergency descent to 10,000 feet, taking into account the minimum safe altitude over the mountains. Meanwhile, the passenger oxygen masks dropped automatically. After the aircraft levelled off, the crew diverted to the nearest suitable airport. The investigation later found that a door seal had failed, which allowed air to leak out of the cabin.",
+   "zh": "飞机在山区上空以37000英尺巡航时，机组收到座舱高度警告。机长和副驾驶戴上氧气面罩，确认座舱高度正在快速上升。他们宣布紧急情况，并开始紧急下降至10000英尺，同时考虑了山区上空的最低安全高度。与此同时，旅客氧气面罩自动脱落。飞机改平后，机组备降到最近的合适机场。调查后来发现，一个舱门密封件失效，导致空气从客舱泄漏。",
+   "tts": "While cruising over mountainous terrain at tree seven thousand feet, the crew received a cabin altitude warning. The captain and the first officer put on their oxygen masks and confirmed that the cabin altitude was climbing rapidly. They declared an emergency, and began an emergency descent to one zero thousand feet, taking into account the minimum safe altitude over the mountains. Meanwhile, the passenger oxygen masks dropped automatically. After the aircraft levelled off, the crew diverted to the nearest suitable airport. The investigation later found that a door seal had failed, which allowed air to leak out of the cabin.",
+   "spoken": "while cruising over mountainous terrain at tree seven thousand feet the crew received a cabin altitude warning the captain and the first officer put on their oxygen masks and confirmed that the cabin altitude was climbing rapidly they declared an emergency and began an emergency descent to one zero thousand feet taking into account the minimum safe altitude over the mountains meanwhile the passenger oxygen masks dropped automatically after the aircraft levelled off the crew diverted to the nearest suitable airport the investigation later found that a door seal had failed which allowed air to leak out of the cabin",
+   "hints": [
+    "tree"
+   ],
+   "conversions": [
+    {
+     "from": "37,000 feet",
+     "to": "tree seven thousand feet"
+    },
+    {
+     "from": "10,000 feet",
+     "to": "one zero thousand feet"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "text": "A passenger aircraft was on final approach when the tower noticed that a maintenance vehicle had entered the runway without clearance. The controller immediately instructed the crew to go around. The captain applied takeoff power, retracted the flaps one step and established a positive rate of climb. The aircraft passed about eighty feet above the vehicle. After the second approach, the flight landed normally. The airport later reported that the driver had misunderstood a radio instruction and had not read it back correctly. As a result, the airport introduced additional training on radiotelephony for all vehicle drivers.",
+   "zh": "一架客机正在最后进近，这时塔台发现一辆维修车辆未经许可进入了跑道。管制员立即指示机组复飞。机长加起飞推力，将襟翼收上一格，并建立了正上升率。飞机在车辆上方约八十英尺处飞过。第二次进近后，该航班正常着陆。机场随后报告，驾驶员误解了一条无线电指令，也没有正确复诵。因此，机场对所有车辆驾驶员增加了陆空通话培训。",
+   "tts": "A passenger aircraft was on final approach when the tower noticed that a maintenance vehicle had entered the runway without clearance. The controller immediately instructed the crew to go around. The captain applied takeoff power, retracted the flaps one step and established a positive rate of climb. The aircraft passed about eighty feet above the vehicle. After the second approach, the flight landed normally. The airport later reported that the driver had misunderstood a radio instruction and had not read it back correctly. As a result, the airport introduced additional training on radiotelephony for all vehicle drivers.",
+   "spoken": "a passenger aircraft was on final approach when the tower noticed that a maintenance vehicle had entered the runway without clearance the controller immediately instructed the crew to go around the captain applied takeoff power retracted the flaps one step and established a positive rate of climb the aircraft passed about eighty feet above the vehicle after the second approach the flight landed normally the airport later reported that the driver had misunderstood a radio instruction and had not read it back correctly as a result the airport introduced additional training on radiotelephony for all vehicle drivers",
+   "hints": [],
+   "conversions": []
+  },
+  {
+   "id": 6,
+   "text": "Two hours after departure, a passenger on a long-haul flight complained of severe chest pain. The cabin crew gave him oxygen and asked over the public address system if there was a doctor on board. A doctor came forward and advised that the passenger should be taken to hospital as soon as possible. The captain contacted the company medical service by satellite phone and, after a short discussion, decided to divert. The aircraft needed to burn fuel to reach the maximum landing weight, so the crew chose a holding pattern near the diversion airport. An ambulance was waiting when the aircraft landed, and the passenger was taken to hospital, where he recovered.",
+   "zh": "一架长途航班起飞两小时后，一名旅客称胸口剧烈疼痛。乘务员给他吸氧，并通过客舱广播询问机上是否有医生。一位医生走上前来，建议应尽快将该旅客送医。机长通过卫星电话联系了公司医疗服务部门，经过简短讨论后决定备降。飞机需要消耗燃油以降到最大着陆重量，因此机组选择在备降机场附近进入等待航线。飞机落地时救护车已在等候，旅客被送往医院，并在那里康复。",
+   "tts": "Two hours after departure, a passenger on a long-haul flight complained of severe chest pain. The cabin crew gave him oxygen and asked over the public address system if there was a doctor on board. A doctor came forward and advised that the passenger should be taken to hospital as soon as possible. The captain contacted the company medical service by satellite phone and, after a short discussion, decided to divert. The aircraft needed to burn fuel to reach the maximum landing weight, so the crew chose a holding pattern near the diversion airport. An ambulance was waiting when the aircraft landed, and the passenger was taken to hospital, where he recovered.",
+   "spoken": "two hours after departure a passenger on a long haul flight complained of severe chest pain the cabin crew gave him oxygen and asked over the public address system if there was a doctor on board a doctor came forward and advised that the passenger should be taken to hospital as soon as possible the captain contacted the company medical service by satellite phone and after a short discussion decided to divert the aircraft needed to burn fuel to reach the maximum landing weight so the crew chose a holding pattern near the diversion airport an ambulance was waiting when the aircraft landed and the passenger was taken to hospital where he recovered",
+   "hints": [],
+   "conversions": []
+  },
+  {
+   "id": 7,
+   "text": "A twin-engine jet was climbing out of an airport when the crew received a low hydraulic pressure warning for the left system. The crew stopped the climb at 5,000 feet and ran the checklist. They found a leak near the left main landing gear. The captain declared an urgency and asked for vectors to return to the airport. Because the flaps would move more slowly, they planned a longer final approach and a higher landing speed. The aircraft landed safely and stopped on the runway, where the fire service checked the brakes for overheating.",
+   "zh": "一架双发喷气飞机离场爬升时，机组收到左液压系统压力低的警告。机组在5000英尺停止爬升并执行检查单，发现左主起落架附近有渗漏。机长宣布紧急情况（紧急程度较低的 PAN-PAN），并要求雷达引导返场。由于襟翼动作会变慢，他们计划了较长的最后进近和较大的着陆速度。飞机安全着陆并停在跑道上，消防人员检查了刹车是否过热。",
+   "tts": "A twin-engine jet was climbing out of an airport when the crew received a low hydraulic pressure warning for the left system. The crew stopped the climb at five thousand feet and ran the checklist. They found a leak near the left main landing gear. The captain declared an urgency and asked for vectors to return to the airport. Because the flaps would move more slowly, they planned a longer final approach and a higher landing speed. The aircraft landed safely and stopped on the runway, where the fire service checked the brakes for overheating.",
+   "spoken": "a twin engine jet was climbing out of an airport when the crew received a low hydraulic pressure warning for the left system the crew stopped the climb at five thousand feet and ran the checklist they found a leak near the left main landing gear the captain declared an urgency and asked for vectors to return to the airport because the flaps would move more slowly they planned a longer final approach and a higher landing speed the aircraft landed safely and stopped on the runway where the fire service checked the brakes for overheating",
+   "hints": [],
+   "conversions": [
+    {
+     "from": "5,000 feet",
+     "to": "five thousand feet"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "text": "Heavy fog reduced visibility at a coastal airport to 300 metres, which was below the minimum required for landing. An inbound flight entered a holding pattern for twenty minutes, hoping that the weather would improve. As the fuel reserve was decreasing, the captain decided to divert to an alternate airport eighty kilometres away. After landing, the passengers were taken to the terminal, and the airline arranged buses to the original destination. The fog cleared four hours later, and flights resumed.",
+   "zh": "浓雾使一个沿海机场的能见度降至300米，低于着陆所需的最低标准。一架进港航班进入等待航线二十分钟，希望天气好转。由于备份油量在减少，机长决定备降到八十公里外的备降机场。落地后旅客被带到航站楼，航空公司安排大巴把他们送往原目的地。四小时后雾散，航班恢复运行。",
+   "tts": "Heavy fog reduced visibility at a coastal airport to tree hundred metres, which was below the minimum required for landing. An inbound flight entered a holding pattern for twenty minutes, hoping that the weather would improve. As the fuel reserve was decreasing, the captain decided to divert to an alternate airport eighty kilometres away. After landing, the passengers were taken to the terminal, and the airline arranged buses to the original destination. The fog cleared four hours later, and flights resumed.",
+   "spoken": "heavy fog reduced visibility at a coastal airport to tree hundred metres which was below the minimum required for landing an inbound flight entered a holding pattern for twenty minutes hoping that the weather would improve as the fuel reserve was decreasing the captain decided to divert to an alternate airport eighty kilometres away after landing the passengers were taken to the terminal and the airline arranged buses to the original destination the fog cleared four hours later and flights resumed",
+   "hints": [
+    "tree"
+   ],
+   "conversions": [
+    {
+     "from": "300 metres",
+     "to": "tree hundred metres"
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "text": "Shortly after takeoff, a twin-engine aircraft suffered a failure of its left engine. The captain took control from the first officer and kept the aircraft on the runway heading. They followed the engine failure procedure, retracted the landing gear and climbed to the safe altitude before cleaning up the aircraft. Air traffic control gave them radar vectors back to the airport. The aircraft landed on one engine, and the passengers left the aircraft normally. The engine was later found to have been damaged by a broken turbine blade.",
+   "zh": "一架双发飞机起飞后不久，左发动机失效。机长从副驾驶手中接过操纵，并保持飞机沿跑道航向飞行。他们执行发动机失效程序，收起起落架，爬升到安全高度后再收襟翼、整理构型。空管给他们提供雷达引导返回机场。飞机单发着陆，旅客正常下机。后来发现发动机是因涡轮叶片断裂而受损。",
+   "tts": "Shortly after takeoff, a twin-engine aircraft suffered a failure of its left engine. The captain took control from the first officer and kept the aircraft on the runway heading. They followed the engine failure procedure, retracted the landing gear and climbed to the safe altitude before cleaning up the aircraft. Air traffic control gave them radar vectors back to the airport. The aircraft landed on one engine, and the passengers left the aircraft normally. The engine was later found to have been damaged by a broken turbine blade.",
+   "spoken": "shortly after takeoff a twin engine aircraft suffered a failure of its left engine the captain took control from the first officer and kept the aircraft on the runway heading they followed the engine failure procedure retracted the landing gear and climbed to the safe altitude before cleaning up the aircraft air traffic control gave them radar vectors back to the airport the aircraft landed on one engine and the passengers left the aircraft normally the engine was later found to have been damaged by a broken turbine blade",
+   "hints": [],
+   "conversions": []
+  },
+  {
+   "id": 10,
+   "text": "While on final approach in strong winds, a passenger aircraft encountered windshear at 400 feet. The warning system gave an audible alert, and the airspeed suddenly dropped. The captain applied full thrust and pitched up to go around. The aircraft climbed away safely, and the crew reported the windshear to the tower so that other aircraft could be warned. After holding for thirty minutes, the wind became weaker and the aircraft landed normally.",
+   "zh": "一架客机在强风中进近时，在400英尺遇到风切变。告警系统发出语音警告，空速突然下降。机长推满油门并拉杆复飞。飞机安全爬升，机组向塔台报告了风切变，以便提醒其他飞机。等待三十分钟后风力减弱，飞机正常着陆。",
+   "tts": "While on final approach in strong winds, a passenger aircraft encountered windshear at four hundred feet. The warning system gave an audible alert, and the airspeed suddenly dropped. The captain applied full thrust and pitched up to go around. The aircraft climbed away safely, and the crew reported the windshear to the tower so that other aircraft could be warned. After holding for thirty minutes, the wind became weaker and the aircraft landed normally.",
+   "spoken": "while on final approach in strong winds a passenger aircraft encountered windshear at four hundred feet the warning system gave an audible alert and the airspeed suddenly dropped the captain applied full thrust and pitched up to go around the aircraft climbed away safely and the crew reported the windshear to the tower so that other aircraft could be warned after holding for thirty minutes the wind became weaker and the aircraft landed normally",
+   "hints": [],
+   "conversions": [
+    {
+     "from": "400 feet",
+     "to": "four hundred feet"
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "text": "During cruise, the first officer noticed that the left fuel tank contained about 800 kilograms less fuel than the right one. The crew checked for a leak but found that the total fuel was decreasing normally. They concluded that it was a fuel imbalance caused by a pump problem, and used the crossfeed to balance the tanks according to the checklist. The tanks were soon balanced. The flight continued to its destination, and engineers repaired the pump after landing.",
+   "zh": "巡航期间，副驾驶注意到左油箱比右油箱少约800公斤燃油。机组检查是否有漏油，但发现总油量正常减少。他们判断这是燃油泵问题造成的燃油不平衡，于是按检查单使用交输供油来平衡油箱。油箱很快平衡。航班继续飞往目的地，落地后工程师修复了油泵。",
+   "tts": "During cruise, the first officer noticed that the left fuel tank contained about eight hundred kilograms less fuel than the right one. The crew checked for a leak but found that the total fuel was decreasing normally. They concluded that it was a fuel imbalance caused by a pump problem, and used the crossfeed to balance the tanks according to the checklist. The tanks were soon balanced. The flight continued to its destination, and engineers repaired the pump after landing.",
+   "spoken": "during cruise the first officer noticed that the left fuel tank contained about eight hundred kilograms less fuel than the right one the crew checked for a leak but found that the total fuel was decreasing normally they concluded that it was a fuel imbalance caused by a pump problem and used the crossfeed to balance the tanks according to the checklist the tanks were soon balanced the flight continued to its destination and engineers repaired the pump after landing",
+   "hints": [],
+   "conversions": [
+    {
+     "from": "800 kilograms",
+     "to": "eight hundred kilograms"
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "text": "After a long flight, an aircraft touched down on a wet runway about 600 metres beyond the threshold, which was farther than planned because of a tailwind on final approach. The braking action was poor, and the aircraft could not stop before the end of the runway and slid onto the grass. No one was injured, and the passengers were evacuated using the slides. The investigation concluded that the crew should have gone around when the touchdown was long, and recommended that airlines place more emphasis on stabilized approach criteria.",
+   "zh": "长途飞行后，飞机在湿滑跑道上接地，位置在跑道入口后约600米，比计划更远，原因是最后进近时有顺风。刹车效应很差，飞机未能在跑道尽头前停住，滑入了草地。无人受伤，旅客通过滑梯撤离。调查认为接地过远时机组本应复飞，并建议航空公司更加强调稳定进近标准。",
+   "tts": "After a long flight, an aircraft touched down on a wet runway about six hundred metres beyond the threshold, which was farther than planned because of a tailwind on final approach. The braking action was poor, and the aircraft could not stop before the end of the runway and slid onto the grass. No one was injured, and the passengers were evacuated using the slides. The investigation concluded that the crew should have gone around when the touchdown was long, and recommended that airlines place more emphasis on stabilized approach criteria.",
+   "spoken": "after a long flight an aircraft touched down on a wet runway about six hundred metres beyond the threshold which was farther than planned because of a tailwind on final approach the braking action was poor and the aircraft could not stop before the end of the runway and slid onto the grass no one was injured and the passengers were evacuated using the slides the investigation concluded that the crew should have gone around when the touchdown was long and recommended that airlines place more emphasis on stabilized approach criteria",
+   "hints": [],
+   "conversions": [
+    {
+     "from": "600 metres",
+     "to": "six hundred metres"
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "text": "A passenger jet was climbing through 12,000 feet when it was struck by lightning. The crew heard a loud bang and saw a flash, but the flight instruments were working normally. The captain asked the cabin crew to check the cabin and decided to return as a precaution. After landing, engineers inspected the aircraft and found small burn marks on the nose and on one wingtip. The aircraft was taken out of service for repairs, and the passengers took another flight.",
+   "zh": "一架客机爬升穿过12000英尺时遭遇雷击。机组听到一声巨响并看到闪光，但飞行仪表工作正常。机长要求乘务员检查客舱，并出于预防决定返航。落地后工程师检查飞机，发现机头和一侧翼尖有轻微烧蚀痕迹。该飞机停飞修理，旅客改乘其他航班。",
+   "tts": "A passenger jet was climbing through one two thousand feet when it was struck by lightning. The crew heard a loud bang and saw a flash, but the flight instruments were working normally. The captain asked the cabin crew to check the cabin and decided to return as a precaution. After landing, engineers inspected the aircraft and found small burn marks on the nose and on one wingtip. The aircraft was taken out of service for repairs, and the passengers took another flight.",
+   "spoken": "a passenger jet was climbing through one two thousand feet when it was struck by lightning the crew heard a loud bang and saw a flash but the flight instruments were working normally the captain asked the cabin crew to check the cabin and decided to return as a precaution after landing engineers inspected the aircraft and found small burn marks on the nose and on one wingtip the aircraft was taken out of service for repairs and the passengers took another flight",
+   "hints": [],
+   "conversions": [
+    {
+     "from": "12,000 feet",
+     "to": "one two thousand feet"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "text": "A flight was cruising normally when the crew lost radio contact with the control centre. They tried the frequency again and used the backup radio, but received no reply. The captain set the transponder code to 7600 to show that the communication had failed, and the crew followed the lost communication procedure. The controllers saw the code and cleared other traffic away from the aircraft. After a few minutes, the crew re-established contact on a new frequency, and the flight continued normally. The cause was a faulty radio switch.",
+   "zh": "一个航班正常巡航时，机组与管制中心失去无线电联系。他们重新尝试该频率并使用备用电台，但没有回应。机长将应答机编码设为7600，表明通信失效，机组按通信失效程序飞行。管制员看到该编码，把其他飞机调离该航班。几分钟后，机组在新频率上重新建立联系，航班正常继续。原因是一个无线电开关故障。",
+   "tts": "A flight was cruising normally when the crew lost radio contact with the control centre. They tried the frequency again and used the backup radio, but received no reply. The captain set the transponder code to seven six zero zero to show that the communication had failed, and the crew followed the lost communication procedure. The controllers saw the code and cleared other traffic away from the aircraft. After a few minutes, the crew re-established contact on a new frequency, and the flight continued normally. The cause was a faulty radio switch.",
+   "spoken": "a flight was cruising normally when the crew lost radio contact with the control centre they tried the frequency again and used the backup radio but received no reply the captain set the transponder code to seven six zero zero to show that the communication had failed and the crew followed the lost communication procedure the controllers saw the code and cleared other traffic away from the aircraft after a few minutes the crew re established contact on a new frequency and the flight continued normally the cause was a faulty radio switch",
+   "hints": [],
+   "conversions": [
+    {
+     "from": "7600",
+     "to": "seven six zero zero"
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "text": "Half an hour after departure, a flight attendant smelled burning plastic in the rear galley and found smoke coming from an oven. She switched off the power, used a fire extinguisher and informed the captain. The captain told air traffic control that they would return and prepared the cabin for landing. The fire was out within a few minutes, and the smoke slowly cleared. The aircraft landed forty minutes later. The oven was found to have an electrical fault.",
+   "zh": "起飞半小时后，一名乘务员在后厨房闻到塑料烧焦的气味，发现烤箱冒烟。她关闭电源，使用灭火器，并通知了机长。机长告知空管将返航，并让客舱做好着陆准备。几分钟内火被扑灭，烟雾慢慢散去。飞机四十分钟后落地。烤箱被发现有电气故障。",
+   "tts": "Half an hour after departure, a flight attendant smelled burning plastic in the rear galley and found smoke coming from an oven. She switched off the power, used a fire extinguisher and informed the captain. The captain told air traffic control that they would return and prepared the cabin for landing. The fire was out within a few minutes, and the smoke slowly cleared. The aircraft landed forty minutes later. The oven was found to have an electrical fault.",
+   "spoken": "half an hour after departure a flight attendant smelled burning plastic in the rear galley and found smoke coming from an oven she switched off the power used a fire extinguisher and informed the captain the captain told air traffic control that they would return and prepared the cabin for landing the fire was out within a few minutes and the smoke slowly cleared the aircraft landed forty minutes later the oven was found to have an electrical fault",
+   "hints": [],
+   "conversions": []
+  },
+  {
+   "id": 16,
+   "text": "A light aircraft was cleared for takeoff from a runway shortly after a large jet had departed from it. The controller had warned the pilot of possible wake turbulence, but the pilot did not wait long enough. Soon after rotation, the small aircraft suddenly rolled to the right and lost height. The pilot recovered control just above the trees and landed back on the runway. The report recommended that controllers keep a minimum time interval of two minutes in such cases.",
+   "zh": "一架大型喷气机从某跑道起飞后不久，一架轻型飞机获得了同一跑道的起飞许可。管制员已提醒飞行员可能有尾流，但飞行员等待的时间不够。抬轮后不久，小飞机突然向右滚转并掉高度。飞行员在树梢上方才恢复操纵，并返回跑道着陆。报告建议管制员在这类情况下保持至少两分钟的时间间隔。",
+   "tts": "A light aircraft was cleared for takeoff from a runway shortly after a large jet had departed from it. The controller had warned the pilot of possible wake turbulence, but the pilot did not wait long enough. Soon after rotation, the small aircraft suddenly rolled to the right and lost height. The pilot recovered control just above the trees and landed back on the runway. The report recommended that controllers keep a minimum time interval of two minutes in such cases.",
+   "spoken": "a light aircraft was cleared for takeoff from a runway shortly after a large jet had departed from it the controller had warned the pilot of possible wake turbulence but the pilot did not wait long enough soon after rotation the small aircraft suddenly rolled to the right and lost height the pilot recovered control just above the trees and landed back on the runway the report recommended that controllers keep a minimum time interval of two minutes in such cases",
+   "hints": [],
+   "conversions": []
+  },
+  {
+   "id": 17,
+   "text": "At night, a crew taxiing towards the runway took a wrong turn and entered a taxiway that was closed for construction. The tower noticed this on the ground radar and told them to stop immediately. The aircraft stopped about fifty metres before the construction area, and a follow-me vehicle led it back to the correct route. The investigation found that the crew had not checked the airport chart carefully, and that the taxiway lights were hard to see in the rain.",
+   "zh": "夜间，一个机组向跑道滑行时走错路口，进入了一条因施工关闭的滑行道。塔台在地面雷达上发现后，立即让他们停止。飞机在距施工区约五十米处停住，引导车把飞机带回正确路线。调查发现机组没有仔细核对机场图，且雨中滑行道灯光很难看清。",
+   "tts": "At night, a crew taxiing towards the runway took a wrong turn and entered a taxiway that was closed for construction. The tower noticed this on the ground radar and told them to stop immediately. The aircraft stopped about fifty metres before the construction area, and a follow-me vehicle led it back to the correct route. The investigation found that the crew had not checked the airport chart carefully, and that the taxiway lights were hard to see in the rain.",
+   "spoken": "at night a crew taxiing towards the runway took a wrong turn and entered a taxiway that was closed for construction the tower noticed this on the ground radar and told them to stop immediately the aircraft stopped about fifty metres before the construction area and a follow me vehicle led it back to the correct route the investigation found that the crew had not checked the airport chart carefully and that the taxiway lights were hard to see in the rain",
+   "hints": [],
+   "conversions": []
+  },
+  {
+   "id": 18,
+   "text": "During the climb, the captain's airspeed indicator suddenly showed an increase, while the standby indicator showed a different value. The crew suspected that the pitot tube was blocked by ice. They disconnected the autopilot, set a fixed pitch attitude and power setting, and followed the unreliable airspeed procedure. They used the GPS ground speed as a reference and informed air traffic control. The flight continued to a nearby airport, where maintenance staff found ice in the pitot tube.",
+   "zh": "爬升期间，机长的空速表读数突然增大，而备用空速表显示的是另一个数值。机组怀疑皮托管被冰堵塞。他们断开自动驾驶，设定固定的俯仰姿态和功率，并执行空速不可靠程序。他们参考GPS地速，并通知了空管。航班继续飞往附近机场，维修人员在那里发现皮托管中有冰。",
+   "tts": "During the climb, the captain's airspeed indicator suddenly showed an increase, while the standby indicator showed a different value. The crew suspected that the pitot tube was blocked by ice. They disconnected the autopilot, set a fixed pitch attitude and power setting, and followed the unreliable airspeed procedure. They used the G P S ground speed as a reference and informed air traffic control. The flight continued to a nearby airport, where maintenance staff found ice in the pitot tube.",
+   "spoken": "during the climb the captain s airspeed indicator suddenly showed an increase while the standby indicator showed a different value the crew suspected that the pitot tube was blocked by ice they disconnected the autopilot set a fixed pitch attitude and power setting and followed the unreliable airspeed procedure they used the g p s ground speed as a reference and informed air traffic control the flight continued to a nearby airport where maintenance staff found ice in the pitot tube",
+   "hints": [
+    "letter"
+   ],
+   "conversions": [
+    {
+     "from": "GPS",
+     "to": "G P S"
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "text": "An aircraft on final approach reported seeing a small drone about 100 metres to its right at 1,500 feet. The tower immediately informed other aircraft and notified airport security. Departures were stopped for fifteen minutes while the police searched the area. The aircraft landed safely, and no collision occurred. The owner of the drone was later found and fined. The airport reminded the public that flying drones near airports is prohibited.",
+   "zh": "一架在最后进近的飞机报告，在1500英尺高度、右侧约100米处看到一架小型无人机。塔台立即通知其他飞机并通知机场保安。警方搜索该区域期间，离场航班停止放行十五分钟。该飞机安全着陆，未发生碰撞。无人机的主人后来被找到并被罚款。机场提醒公众，在机场附近放飞无人机是被禁止的。",
+   "tts": "An aircraft on final approach reported seeing a small drone about one hundred metres to its right at one thousand five hundred feet. The tower immediately informed other aircraft and notified airport security. Departures were stopped for fifteen minutes while the police searched the area. The aircraft landed safely, and no collision occurred. The owner of the drone was later found and fined. The airport reminded the public that flying drones near airports is prohibited.",
+   "spoken": "an aircraft on final approach reported seeing a small drone about one hundred metres to its right at one thousand five hundred feet the tower immediately informed other aircraft and notified airport security departures were stopped for fifteen minutes while the police searched the area the aircraft landed safely and no collision occurred the owner of the drone was later found and fined the airport reminded the public that flying drones near airports is prohibited",
+   "hints": [],
+   "conversions": [
+    {
+     "from": "100 metres",
+     "to": "one hundred metres"
+    },
+    {
+     "from": "1,500 feet",
+     "to": "one thousand five hundred feet"
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "text": "On a snowy morning, a crew requested de-icing before departure. After the ground staff had finished, the captain checked the wings through the cabin window and saw that some snow remained on the left wing. He asked for the de-icing to be repeated. Because the holdover time was limited, the crew also made sure that the takeoff would begin before it expired. The second treatment was completed, and the aircraft departed safely after a delay of fifty minutes.",
+   "zh": "一个下雪的早晨，机组在起飞前申请除冰。地面人员完成后，机长从客舱窗口检查机翼，发现左翼上仍有一些积雪。他要求重新除冰。由于防冰液有效保持时间有限，机组还确保在其过期前开始起飞。第二次除冰完成后，飞机在延误五十分钟后安全起飞。",
+   "tts": "On a snowy morning, a crew requested de-icing before departure. After the ground staff had finished, the captain checked the wings through the cabin window and saw that some snow remained on the left wing. He asked for the de-icing to be repeated. Because the holdover time was limited, the crew also made sure that the takeoff would begin before it expired. The second treatment was completed, and the aircraft departed safely after a delay of fifty minutes.",
+   "spoken": "on a snowy morning a crew requested de icing before departure after the ground staff had finished the captain checked the wings through the cabin window and saw that some snow remained on the left wing he asked for the de icing to be repeated because the holdover time was limited the crew also made sure that the takeoff would begin before it expired the second treatment was completed and the aircraft departed safely after a delay of fifty minutes",
+   "hints": [],
+   "conversions": []
+  }
+ ]
+}
